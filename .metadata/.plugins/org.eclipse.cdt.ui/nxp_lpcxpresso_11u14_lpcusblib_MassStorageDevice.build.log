@@ -1,0 +1,16 @@
+20:07:31 **** Build of configuration Debug for project nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice ****
+make all 
+Building target: nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Debug" -Xlinker -Map="nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice_Debug.ld" -o "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf"  ./example/src/Lib/DataRam.o ./example/src/Lib/SCSI.o ./example/src/Lib/UsbRom.o ./example/src/Lib/fatutil.o  ./example/src/Descriptors.o ./example/src/MassStorage.o ./example/src/cr_startup_lpc11xx.o ./example/src/sysinit.o   -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib -lnxp_lpcxpresso_11u14_usblib_device
+Finished building target: nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf" "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.bin" ; checksum -p LPC11U14_201 -d "nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20464	   2776	   2264	  25504	   63a0	nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice.axf
+ 
+
+20:07:32 Build Finished (took 944ms)
+

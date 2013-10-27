@@ -1,0 +1,20 @@
+19:12:54 **** Incremental Build of configuration Debug for project SerialRTOSWithQueue ****
+make all 
+Building file: ../example/src/VirtualSerial.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -D__LPC11U1X__ -DUSB_DEVICE_ONLY -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOSWithQueue\example\src" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOSWithQueue\example\src\Lib" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOS\example\src\freertos\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOS\example\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -std=gnu99 -mcpu=cortex-m0 -mthumb -MMD -MP -MF"example/src/VirtualSerial.d" -MT"example/src/VirtualSerial.d" -o "example/src/VirtualSerial.o" "../example/src/VirtualSerial.c"
+In file included from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc/chip.h:232:0,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc/board.h:35,
+                 from ../example/src/VirtualSerial.c:1:
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character [enabled by default]
+../example/src/VirtualSerial.c: In function 'EchoCharacter':
+../example/src/VirtualSerial.c:71:10: warning: variable 'recv_byte' set but not used [-Wunused-but-set-variable]
+../example/src/VirtualSerial.c: In function 'VirtualSerialTask':
+../example/src/VirtualSerial.c:117:3: error: incompatible type for argument 2 of 'xQueueGenericSend'
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOS\example\src\freertos\inc/queue.h:515:22: note: expected 'const void * const' but argument is of type '_Bool'
+../example/src/VirtualSerial.c: In function 'vLEDTask0':
+../example/src/VirtualSerial.c:130:3: error: expected ';' before 'Board_LED_Set'
+make: *** [example/src/VirtualSerial.o] Error 1
+
+19:12:55 Build Finished (took 392ms)
+

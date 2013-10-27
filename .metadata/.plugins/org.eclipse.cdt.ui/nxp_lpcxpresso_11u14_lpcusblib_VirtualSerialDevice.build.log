@@ -1,0 +1,6 @@
+20:34:14 **** Incremental Build of configuration Debug for project nxp_lpcxpresso_11u14_lpcusblib_VirtualSerialDevice ****
+make all 
+make: Nothing to be done for `all'.
+
+20:34:14 Build Finished (took 142ms)
+

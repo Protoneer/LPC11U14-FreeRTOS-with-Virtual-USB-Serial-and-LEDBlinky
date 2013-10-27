@@ -1,0 +1,34 @@
+20:18:21 **** Incremental Build of configuration Debug for project RTOS-Serial ****
+make all 
+Building file: ../example/src/Descriptors.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M0 -DUSB_DEVICE_ONLY -D__LPC11U1X__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\RTOS-Serial\example\src" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\RTOS-Serial\example\src\Lib" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\RTOS-Serial\example\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\RTOS-Serial\freertos\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -MMD -MP -MF"example/src/Descriptors.d" -MT"example/src/Descriptors.d" -o "example/src/Descriptors.o" "../example/src/Descriptors.c"
+In file included from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc/chip.h:232:0,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc/board.h:35,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/DCD/LPC11UXX/../../HAL/LPC11UXX/HAL_LPC11Uxx.h:34,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/DCD/LPC11UXX/../../HAL/HAL.h:53,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/DCD/LPC11UXX/../EndpointCommon.h:44,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.h:68,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/Endpoint.h:102,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/Device.h:51,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/USBController.h:123,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/Core/USBTask.h:40,
+                 from C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Drivers\USB/USB.h:360,
+                 from ../example/src/Descriptors.h:36,
+                 from ../example/src/Descriptors.c:35:
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\inc/pmu_11xx.h:49:8: warning: missing terminating " character [enabled by default]
+../example/src/Descriptors.c:115:2: error: unknown field 'CDC_Functional_Header' specified in initializer
+../example/src/Descriptors.c:117:3: error: unknown field 'Subtype' specified in initializer
+../example/src/Descriptors.c:119:3: error: unknown field 'CDCSpecification' specified in initializer
+../example/src/Descriptors.c:119:3: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+../example/src/Descriptors.c:122:2: error: unknown field 'CDC_Functional_ACM' specified in initializer
+../example/src/Descriptors.c:124:3: error: unknown field 'Subtype' specified in initializer
+../example/src/Descriptors.c:126:3: error: unknown field 'Capabilities' specified in initializer
+../example/src/Descriptors.c:129:2: error: unknown field 'CDC_Functional_Union' specified in initializer
+../example/src/Descriptors.c:131:3: error: unknown field 'Subtype' specified in initializer
+../example/src/Descriptors.c:133:3: error: unknown field 'MasterInterfaceNumber' specified in initializer
+../example/src/Descriptors.c:134:3: error: unknown field 'SlaveInterfaceNumber' specified in initializer
+make: *** [example/src/Descriptors.o] Error 1
+
+20:18:23 Build Finished (took 1s.345ms)
+

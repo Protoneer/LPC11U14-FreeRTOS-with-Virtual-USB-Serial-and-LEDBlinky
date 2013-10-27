@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+	<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+		<provider class="org.eclipse.cdt.managedbuilder.language.settings.providers.GCCBuildCommandParser" id="com.crt.advproject.GCCBuildCommandParser" keep-relative-paths="false" name="MCU GCC Build Output Parser" parameter="(arm-none-eabi-gcc)|(arm-none-eabi-[gc]\+\+)|(gcc)|([gc]\+\+)|(clang)" prefer-non-shared="false">
+			<language id="org.eclipse.cdt.core.gcc">
+				<resource project-relative-path="example/src/freertos/src/tasks.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/hid_generic.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_generic/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos_blinky.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/MassStorage.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/list.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Keyboard.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_KeyboardDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_KeyboardDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/queue.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/FreeRTOSCommonHooks.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/cdc_main.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_cdc_uart/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Mouse.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MouseDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MouseDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/ssp.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_ssp/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/heap_1.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Lib/SCSI.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/clkout.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_clkout/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/list.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/composite_main.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_composite/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/queue.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/adc_11xx.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_adc/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/uart.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_uart/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/hid_main.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_mouse/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/FreeRTOSCommonHooks.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/cdc_uart.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_cdc_uart/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/adc_1125.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_adc/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/croutine.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/cdc_desc.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_cdc_uart/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/hid_mouse.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_mouse/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Lib/fatutil.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/bod.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_bod/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Lib/DataRam.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_MassStorageDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/timers.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/tasks.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/i2c.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_i2c/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/ms_timer.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_keyboard/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/composite_desc.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_composite/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/port.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/GenericHID.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_GenericHIDDevice/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_lpcusblib_GenericHIDDevice/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Lib/UsbRom.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/pinint.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_pinint/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/VirtualSerial.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/watchdog.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_watchdog/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/heap_1.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/Descriptors.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="freertos/src/port.c">
+					<entry kind="includePath" name="/RTOS-Serial/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/RTOS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/hid_desc.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_mouse/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/hid_keyboard.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_hid_keyboard/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/timers.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/freertos/src/croutine.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/cdc_vcom.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usbd_lib_composite/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/sysinit.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/blinky.c">
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_periph_blinky/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+				<resource project-relative-path="example/src/cr_startup_lpc11xx.c">
+					<entry kind="includePath" name="/SerialRTOS/example/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/Lib">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/lpc_chip_11uxx_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_usblib_device/Drivers/USB">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/src/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/SerialRTOS/example/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M0" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="USB_DEVICE_ONLY" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC11U1X__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+				</resource>
+			</language>
+			<language id="org.eclipse.cdt.core.g++">
+				<resource project-relative-path="src/main.cpp">
+					<entry kind="includePath" name="/TROS-Serial/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/TROS-Serial/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/nxp_lpcxpresso_11u14_board_lib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__NEWLIB__" value=""/>
+				</resource>
+			</language>
+		</provider>
+	</extension>
+</plugin>

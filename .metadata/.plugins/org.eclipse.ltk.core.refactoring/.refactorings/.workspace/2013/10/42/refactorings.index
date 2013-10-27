@@ -1,0 +1,6 @@
+1381730419797	Delete resource 'TROS-Serial'
+1381731095298	Delete resource 'RTOS-Serial/example/src/VirtualSerial.c'
+1381731103958	Delete resource 'RTOS-Serial/example/inc/VirtualSerial.h'
+1381733384053	Delete resource 'nxp_lpcxpresso_11u14_usblib_device/Drivers/USB/Core/cr_startup_lpc11xx.c'
+1381735292860	Delete resource 'SerialRTOS/example/src/freertos/inc/Descriptors.c'
+1381735415236	Delete resource 'RTOS-Serial'

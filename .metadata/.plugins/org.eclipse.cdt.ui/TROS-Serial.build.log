@@ -1,0 +1,12 @@
+18:59:07 **** Incremental Build of configuration Debug for project TROS-Serial ****
+make all 
+Building file: ../src/main.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DDEBUG -D__CODE_RED -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\TROS-Serial\freertos\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\TROS-Serial\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m0 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:32:0:
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\inc/board.h:35:18: fatal error: chip.h: No such file or directory
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+18:59:07 Build Finished (took 393ms)
+

@@ -1,0 +1,6 @@
+15:43:23 **** Incremental Build of configuration Debug for project nxp_lpcxpresso_11u14_usblib_device ****
+make all 
+make: Nothing to be done for `all'.
+
+15:43:23 Build Finished (took 291ms)
+

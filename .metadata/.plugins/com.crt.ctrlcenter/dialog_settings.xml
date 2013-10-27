@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FlashDialog">
+		<item value="false" key="erase_pages"/>
+		<item value="true" key="program_all"/>
+		<item value="250" key="speed"/>
+		<item value="None" key="crp"/>
+		<item value="false" key="erase"/>
+		<item value="false" key="jtag"/>
+		<item value="false" key="repeat"/>
+		<item value="false" key="program_pages"/>
+		<item value="true" key="erase_mass"/>
+		<item value="true" key="program"/>
+		<item value="C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\SerialRTOS\Debug\SerialRTOS.axf," key="file"/>
+		<item value="" key="base"/>
+		<item value="true" key="logFLag"/>
+		<item value="true" key="exec"/>
+		<item value="false" key="reopen"/>
+	</section>
+</section>

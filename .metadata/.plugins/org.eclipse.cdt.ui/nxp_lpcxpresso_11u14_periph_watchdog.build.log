@@ -1,0 +1,16 @@
+20:07:15 **** Build of configuration Debug for project nxp_lpcxpresso_11u14_periph_watchdog ****
+make all 
+Building target: nxp_lpcxpresso_11u14_periph_watchdog.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\Debug" -Xlinker -Map="nxp_lpcxpresso_11u14_periph_watchdog.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11u14_periph_watchdog_Debug.ld" -o "nxp_lpcxpresso_11u14_periph_watchdog.axf"  ./example/src/cr_startup_lpc11xx.o ./example/src/sysinit.o ./example/src/watchdog.o   -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib
+Finished building target: nxp_lpcxpresso_11u14_periph_watchdog.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11u14_periph_watchdog.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11u14_periph_watchdog.axf" "nxp_lpcxpresso_11u14_periph_watchdog.bin" ; checksum -p LPC11U14_201 -d "nxp_lpcxpresso_11u14_periph_watchdog.bin";
+   text	   data	    bss	    dec	    hex	filename
+   5168	      0	    340	   5508	   1584	nxp_lpcxpresso_11u14_periph_watchdog.axf
+ 
+
+20:07:16 Build Finished (took 544ms)
+

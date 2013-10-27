@@ -1,0 +1,16 @@
+20:07:22 **** Build of configuration Debug for project nxp_lpcxpresso_11u14_usbd_lib_hid_generic ****
+make all 
+Building target: nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\libs" -Xlinker -Map="nxp_lpcxpresso_11u14_usbd_lib_hid_generic.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11u14_usbd_lib_hid_generic_Debug.ld" -o "nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf"  ./example/src/cr_startup_lpc11xx.o ./example/src/hid_desc.o ./example/src/hid_generic.o ./example/src/hid_main.o ./example/src/sysinit.o   -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib -lusbd_11uxx_lib
+Finished building target: nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf" "nxp_lpcxpresso_11u14_usbd_lib_hid_generic.bin" ; checksum -p LPC11U14_201 -d "nxp_lpcxpresso_11u14_usbd_lib_hid_generic.bin";
+   text	   data	    bss	    dec	    hex	filename
+  12148	     48	    344	  12540	   30fc	nxp_lpcxpresso_11u14_usbd_lib_hid_generic.axf
+ 
+
+20:07:22 Build Finished (took 698ms)
+

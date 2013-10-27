@@ -1,0 +1,16 @@
+20:07:29 **** Build of configuration Debug for project nxp_lpcxpresso_11u14_lpcusblib_MouseDevice ****
+make all 
+Building target: nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_usblib_device\Debug" -Xlinker -Map="nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice_Debug.ld" -o "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf"  ./example/src/Lib/UsbRom.o  ./example/src/Descriptors.o ./example/src/Mouse.o ./example/src/cr_startup_lpc11xx.o ./example/src/sysinit.o   -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib -lnxp_lpcxpresso_11u14_usblib_device
+Finished building target: nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf" "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.bin" ; checksum -p LPC11U14_201 -d "nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.bin";
+   text	   data	    bss	    dec	    hex	filename
+  16024	    208	   2516	  18748	   493c	nxp_lpcxpresso_11u14_lpcusblib_MouseDevice.axf
+ 
+
+20:07:30 Build Finished (took 794ms)
+

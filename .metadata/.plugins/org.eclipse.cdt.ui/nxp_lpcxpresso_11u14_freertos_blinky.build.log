@@ -1,0 +1,6 @@
+20:25:58 **** Incremental Build of configuration Debug for project nxp_lpcxpresso_11u14_freertos_blinky ****
+make all 
+make: Nothing to be done for `all'.
+
+20:25:58 Build Finished (took 145ms)
+

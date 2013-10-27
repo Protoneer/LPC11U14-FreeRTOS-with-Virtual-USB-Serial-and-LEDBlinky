@@ -1,0 +1,16 @@
+20:07:18 **** Build of configuration Debug for project nxp_lpcxpresso_11u14_usbd_lib_cdc_uart ****
+make all 
+Building target: nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace5\lpc_chip_11uxx_lib\libs" -Xlinker -Map="nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart_Debug.ld" -o "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf"  ./example/src/cdc_desc.o ./example/src/cdc_main.o ./example/src/cdc_uart.o ./example/src/cr_startup_lpc11xx.o ./example/src/sysinit.o   -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib -lusbd_11uxx_lib
+Finished building target: nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf"; # arm-none-eabi-objcopy -O binary "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf" "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.bin" ; checksum -p LPC11U14_201 -d "nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14924	     80	    368	  15372	   3c0c	nxp_lpcxpresso_11u14_usbd_lib_cdc_uart.axf
+ 
+
+20:07:19 Build Finished (took 644ms)
+
