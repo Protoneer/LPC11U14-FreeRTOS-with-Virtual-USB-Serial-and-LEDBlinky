@@ -11,3 +11,6 @@ This code was created with LPCExpresso IDE and is the actual workspace folder.
 
 This demonstrates that you can connect to the board via Serial and
 interact with a second thread that can do some actual stuff. (Like the LED in this example)
+
+
+Main is defined in : / SerialRTOS / example / src / VirtualSerial.c
